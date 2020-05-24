@@ -1,0 +1,56 @@
+{
+  "name": "ahj-homeworks-rxjs",
+  "version": "1.0.0",
+  "description": "rxjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "live": "live-server src",
+    "lint": "eslint .",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolineFell/ahj-homeworks-rxjs-task2.git"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "CarolineFell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolineFell/ahj-homeworks-rxjs-task2/issues"
+  },
+  "homepage": "https://github.com/CarolineFell/ahj-homeworks-rxjs-task2.git#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "jest": "^25.3.0",
+    "live-server": "^1.2.1",
+    "loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "regenerator-runtime": "^0.13.5",
+    "terser-webpack-plugin": "^3.0.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "gitignore": "^0.6.0",
+    "rxjs": "^6.5.5"
+  }
+}
